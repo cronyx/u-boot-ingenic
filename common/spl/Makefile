@@ -14,7 +14,9 @@ include $(TOPDIR)/config.mk
 LIB	= $(obj)libspl.o
 
 ifdef CONFIG_SPL_BUILD
+ifndef CONFIG_T31LC
 COBJS-$(CONFIG_SPL_FRAMEWORK) += spl.o
+endif
 COBJS-$(CONFIG_SPL_NOR_SUPPORT) += spl_nor.o
 COBJS-$(CONFIG_SPL_YMODEM_SUPPORT) += spl_ymodem.o
 COBJS-$(CONFIG_SPL_NAND_SUPPORT) += spl_nand.o
