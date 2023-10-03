@@ -1,0 +1,161 @@
+H Yc{
+xnliu
+<|UB
+&yff
+L2Y=
+YOz:dQ
+61}JL
+qM4Y
+<pFB
+<pFC
+<pFB
+PGB$
+<@xB$*
+<@Bc$
+)%* 
+0B0$
+c4 O
+<TEB$
+Qp O
+Qp O
+<pEB$
+<!(@
+	<!(
+<pHB$
+@gp!
+5!xb
+EB$! D
+Gc$!
+f0$(
+$$0C
+B0%(
+h0$(e
+h0$(e
+'0Gc$
+b$!0
+B$*X
+C$!8
+C$!8
+J$!X
+H$!X
+G$!@
+G$!8
+L(!h@
+%!h$
+L(!h
+c$#8
+'Timer init
+CLK stop
+PLL init
+CLK init
+SDRAM init
+SDRAM init ok
+board_init_r
+image entry point: 0x%X
+Flush cache all before jump. 
+ERROR: uboot pll freq  not in range 
+at %s:%d/%s()
+pll.c
+nf=%d nr = %d od0 = %d od1 = %d
+cppcr is %x
+CPM_CPAPCR %x
+%s:%d
+ERROR: cpufreq = %d and ddrfreq = %d can not be zero, check board config
+at %s:%d/%s()
+ERROR: pll freq is not integer times than cpu freq or/and ddr freq
+at %s:%d/%s()
+ERROR: Periph pll freq %d is out of range
+at %s:%d/%s()
+pll_cfg.pdiv = %d, pll_cfg.h2div = %d, pll_cfg.h0div = %d, pll_cfg.cdiv = %d, pll_cfg.l2div = %d
+CPM_CPMPCR %x
+CPM_CPVPCR %x
+cppcr 0x%x
+apll_freq %d 
+mpll_freq %d 
+vpll_freq = %d
+ddr sel %s, cpu sel %s
+mpll
+apll
+ddrfreq %d
+cclk  %d
+l2clk %d
+h0clk %d
+h2clk %d
+pclk  %d
+set clk id error
+clk id %d: get pll error
+DDR Controller init
+INNO_DQ_WIDTH   :%X
+INNO_PLL_FBDIV  :%X
+INNO_PLL_PDIV   :%X
+INNO_MEM_CFG    :%X
+INNO_PLL_CTRL   :%X
+INNO_CHANNEL_EN :%X
+INNO_CWL        :%X
+INNO_CL         :%X
+T31_DQS_DELAY_L: %x
+T31_DQS_DELAY_H: %x
+T31_0x5: %x
+T31_0x15: %x
+T31_0x4: %x
+T31_0x14: %x
+INNO_TRAINING_CTRL 1: %x
+INNO_TRAINING_CTRL 2: %x
+T31_cc: %x
+INNO_TRAINING_CTRL 3: %x
+T31_118: %x
+T31_158: %x
+T31_190: %x
+T31_194: %x
+ddr_inno_phy_init ..!
+phy reg = 0x%x, CL = 0x%x
+ddr_inno_phy_init ..! 11:  %X
+ddr_inno_phy_init ..! 22:  %X
+ddr_inno_phy_init ..! 33:  %X
+REG_DDR_LMR: %x
+REG_DDR_LMR, MR0: %x
+jz-04 :  0x%x 
+jz-08 :  0x%x 
+jz-28 :  0x%x 
+DDR PHY init OK
+sdram init start
+DDRC_STATUS         0x%x
+DDRC_CFG            0x%x
+DDRC_CTRL           0x%x
+DDRC_LMR            0x%x
+DDRC_DLP            0x%x
+DDRC_TIMING1        0x%x
+DDRC_TIMING2        0x%x
+DDRC_TIMING3        0x%x
+DDRC_TIMING4        0x%x
+DDRC_TIMING5        0x%x
+DDRC_TIMING6        0x%x
+DDRC_REFCNT         0x%x
+DDRC_MMAP0          0x%x
+DDRC_MMAP1          0x%x
+DDRC_REMAP1         0x%x
+DDRC_REMAP2         0x%x
+DDRC_REMAP3         0x%x
+DDRC_REMAP4         0x%x
+DDRC_REMAP5         0x%x
+DDRC_AUTOSR_EN      0x%x
+sdram init finished
+@pas:DXDQSTR= 0x%x
+Rank:%d
+No pass at byte:%d
+pll_init
+freq_correcting
+align_pll
+final_fill_div
+get_pllreg_value
+GU-Boot
+U-Boot SPL 2013.07-00014-g7e49a2567-dirty (Apr 25 2022 - 16:06:41)
+jz_sfc_readl(SFC_SR) : %x
+(null)
+Cannot find console
+jz_serial
+!Bs 
+!Bs 
+!Bs 
+!Bs 
+!Bs 
