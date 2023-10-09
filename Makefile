@@ -527,7 +527,7 @@ $(obj)u-boot-with-spl.bin: $(obj)spl/u-boot-spl.bin $(obj)u-boot.bin
 			-I binary -O binary $< $(obj)spl/u-boot-spl-pad.bin
 ifdef CONFIG_T31LC
 ifdef CONFIG_SPL_SFC_SUPPORT
-		cp $(TOPDIR)/firmware/t31lc_sfcnor.bin $(obj)spl/u-boot-spl-pad.bin
+		cp $(TOPDIR)/firmware/t31lc_sfcnor_ok.bin $(obj)spl/u-boot-spl-pad.bin
 else
 		$(error "T31LC unsupported option")
 endif
